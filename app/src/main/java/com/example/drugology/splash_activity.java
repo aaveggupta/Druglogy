@@ -2,9 +2,11 @@ package com.example.drugology;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.Pair;
 
 public class splash_activity extends AppCompatActivity {
 
@@ -15,6 +17,7 @@ public class splash_activity extends AppCompatActivity {
 
         SystemClock.sleep(2000);
         Intent intent = new Intent(splash_activity.this,MainActivity.class);
+
         startActivity(intent);
         finish();
 
